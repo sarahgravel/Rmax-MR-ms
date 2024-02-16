@@ -5,7 +5,6 @@
 
 # Table 1: Q1) Do the life history trait components of rmax (age-at-maturity, maximum age, reproductive output) explain variation in metabolic rates? ----
 
-# Load mods
 # RMR
 RMR_loo1 <- add_criterion(brms_rmaxRMRbigN_mtLs, "loo")
 RMR_loo1_loo <- brms::loo(RMR_loo1)
@@ -64,7 +63,6 @@ brms::loo(AAS_loo4)
 
 # Compare top model(s) from Q1 to a model with rmax.
 
-# Load mods
 # RMR
 RMR_loo5 <- add_criterion(brms_rmaxRMRbigN_mtRmaxLs, "loo")
 RMR_loo5_loo <- brms::loo(RMR_loo5)
