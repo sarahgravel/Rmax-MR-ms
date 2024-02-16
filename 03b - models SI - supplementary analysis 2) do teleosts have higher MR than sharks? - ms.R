@@ -27,8 +27,6 @@ brms_rmaxRMRbigN_mtLs_taxon <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtLs_taxon)
-# save(brms_rmaxRMRbigN_mtLs_taxon, file="models/20230314/brms_rmaxRMRbigN_mtLs_taxon.rds")
 
 # RMR ~ meas mass + meas temp + amat + lifestyle + taxon ----
 brms_rmaxRMRbigN_mtAmatLs_taxon <- brm(
@@ -47,8 +45,6 @@ brms_rmaxRMRbigN_mtAmatLs_taxon <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtAmatLs_taxon)
-# save(brms_rmaxRMRbigN_mtAmatLs_taxon, file="models/20230314/brms_rmaxRMRbigN_mtAmatLs_taxon.rds")
 
 # RMR ~ meas mass + meas temp + rmax + lifestyle + taxon ----
 brms_rmaxRMRbigN_mtRmaxLs_taxon <- brm(
@@ -67,8 +63,6 @@ brms_rmaxRMRbigN_mtRmaxLs_taxon <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtRmaxLs_taxon)
-# save(brms_rmaxRMRbigN_mtRmaxLs_taxon, file="models/20230314/brms_rmaxRMRbigN_mtRmaxLs_taxon.rds")
 
 # MMR ~ meas mass + meas temp + lifestyle + taxon ----
 brms_rmaxMMRbigN_mtLs_taxon <- brm(
@@ -87,8 +81,6 @@ brms_rmaxMMRbigN_mtLs_taxon <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtLs_taxon) 
-# save(brms_rmaxMMRbigN_mtLs_taxon, file="models/20230314/brms_rmaxMMRbigN_mtLs_taxon.rds")
 
 # MMR ~ meas mass + meas temp + rmax + lifestyle + taxon ----
 brms_rmaxMMRbigN_mtRmaxLs_taxon <- brm(
@@ -107,8 +99,6 @@ brms_rmaxMMRbigN_mtRmaxLs_taxon <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtRmaxLs_taxon)
-# save(brms_rmaxMMRbigN_mtRmaxLs_taxon, file="models/20230314/brms_rmaxMMRbigN_mtRmaxLs_taxon.rds")
 
 # AAS ~ meas mass + meas temp + lifestyle + taxon ----
 brms_rmaxAASbigN_mtLs_taxon <- brm(
@@ -127,8 +117,6 @@ brms_rmaxAASbigN_mtLs_taxon <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtLs_taxon)
-# save(brms_rmaxAASbigN_mtLs_taxon, file="models/20230314/brms_rmaxAASbigN_mtLs_taxon.rds")
 
 # AAS ~ meas mass + meas temp + amat + lifestyle + taxon ----
 brms_rmaxAASbigN_mtAmatLs_taxon <- brm(
@@ -147,8 +135,6 @@ brms_rmaxAASbigN_mtAmatLs_taxon <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtAmatLs_taxon)
-# save(brms_rmaxAASbigN_mtAmatLs_taxon, file="models/20230314/brms_rmaxAASbigN_mtAmatLs_taxon.rds")
 
 # AAS ~ meas mass + meas temp + rmax + lifestyle + taxon ----
 brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
@@ -167,9 +153,6 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtRmaxLs_taxon)
-# save(brms_rmaxAASbigN_mtRmaxLs_taxon, file="models/20230314/brms_rmaxAASbigN_mtRmaxLs_taxon.rds")
-
 
 # # * ----
 # 
@@ -199,8 +182,6 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRbigN_mtLs_taxon_unstd)
-# save(brms_rmaxRMRbigN_mtLs_taxon_unstd, file="models/20230314/brms_rmaxRMRbigN_mtLs_taxon_unstd.rds")
 # 
 # # RMR ~ meas mass + meas temp + amat + lifestyle + taxon (UNSTD)----
 # brms_rmaxRMRbigN_mtAmatLs_taxon_unstd <- brm(
@@ -224,8 +205,6 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRbigN_mtAmatLs_taxon_unstd)
-# save(brms_rmaxRMRbigN_mtAmatLs_taxon_unstd, file="models/20230314/brms_rmaxRMRbigN_mtAmatLs_taxon_unstd.rds")
 # 
 # # RMR ~ meas mass + meas temp + rmax + lifestyle + taxon (UNSTD) ----
 # brms_rmaxRMRbigN_mtRmaxLs_taxon_unstd <- brm(
@@ -244,8 +223,6 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# summary(brms_rmaxRMRbigN_mtRmaxLs_taxon_unstd)
-# save(brms_rmaxRMRbigN_mtRmaxLs_taxon_unstd, file="models/20230314/brms_rmaxRMRbigN_mtRmaxLs_taxon_unstd.rds")
 # 
 # # MMR ~ meas mass + meas temp + lifestyle + taxon (UNSTD) ----
 # brms_rmaxMMRbigN_mtLs_taxon_unstd <- brm(
@@ -270,8 +247,6 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: There were 4 chains where the estimated Bayesian Fraction of Missing Information was low. See http://mc-stan.org/misc/warnings.html#bfmi-low 
 # # 3: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRbigN_mtLs_taxon_unstd) 
-# save(brms_rmaxMMRbigN_mtLs_taxon_unstd, file="models/20230314/brms_rmaxMMRbigN_mtLs_taxon_unstd.rds")
 # 
 # # MMR ~ meas mass + meas temp + rmax + lifestyle + taxon (UNSTD) ----
 # brms_rmaxMMRbigN_mtRmaxLs_taxon_unstd <- brm(
@@ -295,8 +270,6 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRbigN_mtRmaxLs_taxon_unstd)
-# save(brms_rmaxMMRbigN_mtRmaxLs_taxon_unstd, file="models/20230314/brms_rmaxMMRbigN_mtRmaxLs_taxon_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + lifestyle + taxon (UNSTD) ----
 # brms_rmaxAASbigN_mtLs_taxon_unstd <- brm(
@@ -315,8 +288,6 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# summary(brms_rmaxAASbigN_mtLs_taxon_unstd)
-# save(brms_rmaxAASbigN_mtLs_taxon_unstd, file="models/20230314/brms_rmaxAASbigN_mtLs_taxon_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + amat + lifestyle + taxon (UNSTD) ----
 # brms_rmaxAASbigN_mtAmatLs_taxon_unstd <- brm(
@@ -335,8 +306,6 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# summary(brms_rmaxAASbigN_mtAmatLs_taxon_unstd)
-# save(brms_rmaxAASbigN_mtAmatLs_taxon_unstd, file="models/20230314/brms_rmaxAASbigN_mtAmatLs_taxon_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + rmax + lifestyle + taxon (UNSTD) ----
 # brms_rmaxAASbigN_mtRmaxLs_taxon_unstd <- brm(
@@ -355,5 +324,3 @@ brms_rmaxAASbigN_mtRmaxLs_taxon <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# summary(brms_rmaxAASbigN_mtRmaxLs_taxon_unstd)
-# save(brms_rmaxAASbigN_mtRmaxLs_taxon_unstd, file="models/20230314/brms_rmaxAASbigN_mtRmaxLs_taxon_unstd.rds")

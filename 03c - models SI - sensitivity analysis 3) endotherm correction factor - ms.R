@@ -87,8 +87,6 @@ brms_rmaxRMRbigN_mtLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtLs_noEndos)
-# save(brms_rmaxRMRbigN_mtLs_noEndos, file="models/20230314_noEndos/brms_rmaxRMRbigN_mtLs_noEndos.rds")
 
 # RMR ~ meas mass + meas temp + amat + lifestyle ----
 brms_rmaxRMRbigN_mtAmatLs_noEndos <- brm(
@@ -107,8 +105,6 @@ brms_rmaxRMRbigN_mtAmatLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtAmatLs_noEndos)
-# save(brms_rmaxRMRbigN_mtAmatLs_noEndos, file="models/20230314_noEndos/brms_rmaxRMRbigN_mtAmatLs_noEndos.rds")
 
 # RMR ~ meas mass + meas temp + rmax + lifestyle ----
 brms_rmaxRMRbigN_mtRmaxLs_noEndos <- brm(
@@ -127,8 +123,6 @@ brms_rmaxRMRbigN_mtRmaxLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtRmaxLs_noEndos)
-# save(brms_rmaxRMRbigN_mtRmaxLs_noEndos, file="models/20230314_noEndos/brms_rmaxRMRbigN_mtRmaxLs_noEndos.rds")
 
 # MMR ~ meas mass + meas temp + lifestyle ----
 brms_rmaxMMRbigN_mtLs_noEndos <- brm(
@@ -147,8 +141,6 @@ brms_rmaxMMRbigN_mtLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtLs_noEndos)
-# save(brms_rmaxMMRbigN_mtLs_noEndos, file="models/20230314_noEndos/brms_rmaxMMRbigN_mtLs_noEndos.rds")
 
 # MMR ~ meas mass + meas temp + amat + lifestyle ----
 brms_rmaxMMRbigN_mtAmatLs_noEndos <- brm(
@@ -167,8 +159,6 @@ brms_rmaxMMRbigN_mtAmatLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtAmatLs_noEndos)
-# save(brms_rmaxMMRbigN_mtAmatLs_noEndos, file="models/20230314_noEndos/brms_rmaxMMRbigN_mtAmatLs_noEndos.rds")
 
 # MMR ~ meas mass + meas temp + rmax + lifestyle ----
 brms_rmaxMMRbigN_mtRmaxLs_noEndos <- brm(
@@ -187,8 +177,6 @@ brms_rmaxMMRbigN_mtRmaxLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtRmaxLs_noEndos)
-# save(brms_rmaxMMRbigN_mtRmaxLs_noEndos, file="models/20230314_noEndos/brms_rmaxMMRbigN_mtRmaxLs_noEndos.rds")
 
 # AAS ~ meas mass + meas temp + lifestyle ----
 brms_rmaxAASbigN_mtLs_noEndos <- brm(
@@ -207,8 +195,6 @@ brms_rmaxAASbigN_mtLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtLs_noEndos)
-# save(brms_rmaxAASbigN_mtLs_noEndos, file="models/20230314_noEndos/brms_rmaxAASbigN_mtLs_noEndos.rds")
 
 # AAS ~ meas mass + meas temp + amat + lifestyle ----
 brms_rmaxAASbigN_mtAmatLs_noEndos <- brm(
@@ -227,8 +213,6 @@ brms_rmaxAASbigN_mtAmatLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtAmatLs_noEndos)
-# save(brms_rmaxAASbigN_mtAmatLs_noEndos, file="models/20230314_noEndos/brms_rmaxAASbigN_mtAmatLs_noEndos.rds")
 
 # AAS ~ meas mass + meas temp + rmax + lifestyle ----
 brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
@@ -247,9 +231,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtRmaxLs_noEndos)
-# save(brms_rmaxAASbigN_mtRmaxLs_noEndos, file="models/20230314_noEndos/brms_rmaxAASbigN_mtRmaxLs_noEndos.rds")
-
 
 # # * ----
 # 
@@ -279,8 +260,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRbigN_mtLs_unstd_noTunas)
-# save(brms_rmaxRMRbigN_mtLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxRMRbigN_mtLs_unstd_noTunas.rds")
 # 
 # # RMR ~ meas mass + meas temp + amat + lifestyle (UNSTD) ----
 # brms_rmaxRMRbigN_mtAmatLs_unstd_noTunas <- brm(
@@ -304,8 +283,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRbigN_mtAmatLs_unstd_noTunas)
-# save(brms_rmaxRMRbigN_mtAmatLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxRMRbigN_mtAmatLs_unstd_noTunas.rds")
 # 
 # # RMR ~ meas mass + meas temp + rmax + lifestyle (UNSTD) ----
 # brms_rmaxRMRbigN_mtRmaxLs_unstd_noTunas <- brm(
@@ -329,8 +306,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRbigN_mtRmaxLs_unstd_noTunas)
-# save(brms_rmaxRMRbigN_mtRmaxLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxRMRbigN_mtRmaxLs_unstd_noTunas.rds")
 # 
 # # MMR ~ meas mass + meas temp + lifestyle (UNSTD) ----
 # brms_rmaxMMRbigN_mtLs_unstd_noTunas <- brm(
@@ -355,8 +330,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: There were 1 chains where the estimated Bayesian Fraction of Missing Information was low. See http://mc-stan.org/misc/warnings.html#bfmi-low 
 # # 3: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRbigN_mtLs_unstd_noTunas)
-# save(brms_rmaxMMRbigN_mtLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxMMRbigN_mtLs_unstd_noTunas.rds")
 # 
 # # MMR ~ meas mass + meas temp + amat + lifestyle (UNSTD) ----
 # brms_rmaxMMRbigN_mtAmatLs_unstd_noTunas <- brm(
@@ -380,8 +353,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRbigN_mtAmatLs_unstd_noTunas)
-# save(brms_rmaxMMRbigN_mtAmatLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxMMRbigN_mtAmatLs_unstd_noTunas.rds")
 # 
 # # MMR ~ meas mass + meas temp + rmax + lifestyle (UNSTD) ----
 # brms_rmaxMMRbigN_mtRmaxLs_unstd_noTunas <- brm(
@@ -405,8 +376,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRbigN_mtRmaxLs_unstd_noTunas)
-# save(brms_rmaxMMRbigN_mtRmaxLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxMMRbigN_mtRmaxLs_unstd_noTunas.rds")
 # 
 # # AAS ~ meas mass + meas temp + lifestyle (UNSTD) ----
 # brms_rmaxAASbigN_mtLs_unstd_noTunas <- brm(
@@ -425,8 +394,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# summary(brms_rmaxAASbigN_mtLs_unstd_noTunas)
-# save(brms_rmaxAASbigN_mtLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxAASbigN_mtLs_unstd_noTunas.rds")
 # 
 # # AAS ~ meas mass + meas temp + amat + lifestyle (UNSTD) ----
 # brms_rmaxAASbigN_mtAmatLs_unstd_noTunas <- brm(
@@ -450,8 +417,6 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxAASbigN_mtAmatLs_unstd_noTunas)
-# save(brms_rmaxAASbigN_mtAmatLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxAASbigN_mtAmatLs_unstd_noTunas.rds")
 # 
 # # AAS ~ meas mass + meas temp + rmax + lifestyle (UNSTD) ----
 # brms_rmaxAASbigN_mtRmaxLs_unstd_noTunas <- brm(
@@ -470,5 +435,4 @@ brms_rmaxAASbigN_mtRmaxLs_noEndos <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# summary(brms_rmaxAASbigN_mtRmaxLs_unstd_noTunas)
-# save(brms_rmaxAASbigN_mtRmaxLs_unstd_noTunas, file="models/20230314_noTunas/brms_rmaxAASbigN_mtRmaxLs_unstd_noTunas.rds")
+#

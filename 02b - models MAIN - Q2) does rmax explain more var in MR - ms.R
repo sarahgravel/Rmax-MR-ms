@@ -24,8 +24,6 @@ brms_rmaxRMRbigN_mtRmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtRmaxLs)
-# save(brms_rmaxRMRbigN_mtRmaxLs, file="models/20230314/brms_rmaxRMRbigN_mtRmaxLs.rds")
 
 # MMR ~ meas mass + meas temp + rmax + lifestyle ----
 brms_rmaxMMRbigN_mtRmaxLs <- brm(
@@ -44,8 +42,6 @@ brms_rmaxMMRbigN_mtRmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtRmaxLs)
-# save(brms_rmaxMMRbigN_mtRmaxLs, file="models/20230314/brms_rmaxMMRbigN_mtRmaxLs.rds")
 
 # AAS ~ meas mass + meas temp + rmax + lifestyle ----
 brms_rmaxAASbigN_mtRmaxLs <- brm(
@@ -64,8 +60,6 @@ brms_rmaxAASbigN_mtRmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtRmaxLs)
-# save(brms_rmaxAASbigN_mtRmaxLs, file="models/20230314/brms_rmaxAASbigN_mtRmaxLs.rds")
 
 
 # # * ----
@@ -91,8 +85,6 @@ brms_rmaxAASbigN_mtRmaxLs <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# summary(brms_rmaxRMRbigN_mtRmaxLs_unstd)
-# save(brms_rmaxRMRbigN_mtRmaxLs_unstd, file="models/20230314/brms_rmaxRMRbigN_mtRmaxLs_unstd.rds")
 # 
 # # MMR ~ meas mass + meas temp + rmax + lifestyle UNSTD ----
 # brms_rmaxMMRbigN_mtRmaxLs_unstd <- brm(
@@ -116,8 +108,6 @@ brms_rmaxAASbigN_mtRmaxLs <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRbigN_mtRmaxLs_unstd)
-# save(brms_rmaxMMRbigN_mtRmaxLs_unstd, file="models/20230314/brms_rmaxMMRbigN_mtRmaxLs_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + rmax + lifestyle UNSTD ----
 # brms_rmaxAASbigN_mtRmaxLs_unstd <- brm(
@@ -136,5 +126,3 @@ brms_rmaxAASbigN_mtRmaxLs <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# summary(brms_rmaxAASbigN_mtRmaxLs_unstd)
-# save(brms_rmaxAASbigN_mtRmaxLs_unstd, file="models/20230314/brms_rmaxAASbigN_mtRmaxLs_unstd.rds")

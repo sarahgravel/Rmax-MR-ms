@@ -21,8 +21,6 @@ brms_rmaxRMRbigN_mt <- brm(
   ),
   chains = 4, cores = 4
 )
-summary(brms_rmaxRMRbigN_mt)
-save(brms_rmaxRMRbigN_mt, file="models/20230314/brms_rmaxRMRbigN_mt.rds")
 
 # RMR ~ meas mass + meas temp + repro output ----
 brms_rmaxRMRbigN_mtRO <- brm(
@@ -41,8 +39,6 @@ brms_rmaxRMRbigN_mtRO <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtRO)
-# save(brms_rmaxRMRbigN_mtRO, file="models/20230314/brms_rmaxRMRbigN_mtRO.rds")
 
 # RMR ~ meas mass + meas temp + amat ----
 brms_rmaxRMRbigN_mtAmat <- brm(
@@ -61,8 +57,6 @@ brms_rmaxRMRbigN_mtAmat <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtAmat)
-# save(brms_rmaxRMRbigN_mtAmat, file="models/20230314/brms_rmaxRMRbigN_mtAmat.rds")
 
 # RMR ~ meas mass + meas temp + amax ----
 brms_rmaxRMRbigN_mtAmax <- brm(
@@ -81,8 +75,6 @@ brms_rmaxRMRbigN_mtAmax <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtAmax)
-# save(brms_rmaxRMRbigN_mtAmax, file="models/20230314/brms_rmaxRMRbigN_mtAmax.rds")
 
 # RMR ~ meas mass + meas temp + rmax ----
 brms_rmaxRMRbigN_mtRmax <- brm(
@@ -101,8 +93,6 @@ brms_rmaxRMRbigN_mtRmax <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRbigN_mtRmax)
-# save(brms_rmaxRMRbigN_mtRmax, file="models/20230314/brms_rmaxRMRbigN_mtRmax.rds")
 
 # MMR ~ meas mass + meas temp ----
 brms_rmaxMMRbigN_mt <- brm(
@@ -121,8 +111,6 @@ brms_rmaxMMRbigN_mt <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mt) 
-# save(brms_rmaxMMRbigN_mt, file="models/20230314/brms_rmaxMMRbigN_mt.rds")
 
 # MMR ~ meas mass + meas temp + repro output ----
 brms_rmaxMMRbigN_mtRO <- brm(
@@ -141,8 +129,6 @@ brms_rmaxMMRbigN_mtRO <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtRO) 
-# save(brms_rmaxMMRbigN_mtRO, file="models/20230314/brms_rmaxMMRbigN_mtRO.rds")
 
 # MMR ~ meas mass + meas temp + amat ----
 brms_rmaxMMRbigN_mtAmat<- brm(
@@ -161,8 +147,6 @@ brms_rmaxMMRbigN_mtAmat<- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtAmat)
-# save(brms_rmaxMMRbigN_mtAmat, file="models/20230314/brms_rmaxMMRbigN_mtAmat.rds")
 
 # MMR ~ meas mass + meas temp + amax ----
 brms_rmaxMMRbigN_mtAmax <- brm(
@@ -181,8 +165,6 @@ brms_rmaxMMRbigN_mtAmax <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtAmax) # SIGMA RHAT 1.01
-# save(brms_rmaxMMRbigN_mtAmax, file="models/20230314/brms_rmaxMMRbigN_mtAmax.rds")
 
 # MMR ~ meas mass + meas temp + rmax ----
 brms_rmaxMMRbigN_mtRmax <- brm(
@@ -201,8 +183,6 @@ brms_rmaxMMRbigN_mtRmax <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRbigN_mtRmax)
-# save(brms_rmaxMMRbigN_mtRmax, file="models/20230314/brms_rmaxMMRbigN_mtRmax.rds")
 
 # AAS ~ meas mass + meas temp ----
 brms_rmaxAASbigN_mt <- brm(
@@ -221,8 +201,6 @@ brms_rmaxAASbigN_mt <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mt)
-# save(brms_rmaxAASbigN_mt, file="models/20230314/brms_rmaxAASbigN_mt.rds")
 
 # AAS ~ meas mass + meas temp + repro output ----
 brms_rmaxAASbigN_mtRO <- brm(
@@ -241,8 +219,6 @@ brms_rmaxAASbigN_mtRO <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtRO)
-# save(brms_rmaxAASbigN_mtRO, file="models/20230314/brms_rmaxAASbigN_mtRO.rds")
 
 # AAS ~ meas mass + meas temp + amat ----
 brms_rmaxAASbigN_mtAmat <- brm(
@@ -261,8 +237,6 @@ brms_rmaxAASbigN_mtAmat <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtAmat)
-# save(brms_rmaxAASbigN_mtAmat, file="models/20230314/brms_rmaxAASbigN_mtAmat.rds")
 
 # AAS ~ meas mass + meas temp + amax ----
 brms_rmaxAASbigN_mtAmax <- brm(
@@ -281,8 +255,6 @@ brms_rmaxAASbigN_mtAmax <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtAmax)
-# save(brms_rmaxAASbigN_mtAmax, file="models/20230314/brms_rmaxAASbigN_mtAmax.rds")
 
 # AAS ~ meas mass + meas temp + rmax ----
 brms_rmaxAASbigN_mtRmax <- brm(
@@ -301,5 +273,3 @@ brms_rmaxAASbigN_mtRmax <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASbigN_mtRmax)
-# save(brms_rmaxAASbigN_mtRmax, file="models/20230314/brms_rmaxAASbigN_mtRmax.rds")

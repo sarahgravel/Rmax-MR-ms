@@ -28,8 +28,6 @@ brms_rmaxRMRmeanT_mtLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRmeanT_mtLs)
-# save(brms_rmaxRMRmeanT_mtLs, file="models/20230314/brms_rmaxRMRmeanT_mtLs.rds")
 
 # RMR ~ meas mass + meas temp + repro output + lifestyle ----
 brms_rmaxRMRmeanT_mtROLs <- brm(
@@ -48,8 +46,6 @@ brms_rmaxRMRmeanT_mtROLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRmeanT_mtROLs)
-# save(brms_rmaxRMRmeanT_mtROLs, file="models/20230314/brms_rmaxRMRmeanT_mtROLs.rds")
 
 # RMR ~ meas mass + meas temp + amat + lifestyle ----
 brms_rmaxRMRmeanT_mtAmatLs <- brm(
@@ -68,8 +64,6 @@ brms_rmaxRMRmeanT_mtAmatLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRmeanT_mtAmatLs)
-# save(brms_rmaxRMRmeanT_mtAmatLs, file="models/20230314/brms_rmaxRMRmeanT_mtAmatLs.rds")
 
 # RMR ~ meas mass + meas temp + amax + lifestyle ----
 brms_rmaxRMRmeanT_mtAmaxLs <- brm(
@@ -88,8 +82,6 @@ brms_rmaxRMRmeanT_mtAmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRmeanT_mtAmaxLs)
-# save(brms_rmaxRMRmeanT_mtAmaxLs, file="models/20230314/brms_rmaxRMRmeanT_mtAmaxLs.rds")
 
 # RMR ~ meas mass + meas temp + rmax + lifestyle ----
 brms_rmaxRMRmeanT_mtRmaxLs <- brm(
@@ -108,8 +100,6 @@ brms_rmaxRMRmeanT_mtRmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxRMRmeanT_mtRmaxLs)
-# save(brms_rmaxRMRmeanT_mtRmaxLs, file="models/20230314/brms_rmaxRMRmeanT_mtRmaxLs.rds")
 
 # MMR ~ meas mass + meas temp + lifestyle ----
 brms_rmaxMMRmeanT_mtLs <- brm(
@@ -128,8 +118,6 @@ brms_rmaxMMRmeanT_mtLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRmeanT_mtLs)  
-# save(brms_rmaxMMRmeanT_mtLs, file= "models/20230314/brms_rmaxMMRmeanT_mtLs.rds")
 
 # MMR ~ meas mass + meas temp + repro output + lifestyle ----
 brms_rmaxMMRmeanT_mtROLs <- brm(
@@ -148,8 +136,6 @@ brms_rmaxMMRmeanT_mtROLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRmeanT_mtROLs) 
-# save(brms_rmaxMMRmeanT_mtROLs, file="models/20230314/brms_rmaxMMRmeanT_mtROLs.rds")
 
 # MMR ~ meas mass + meas temp + amat + lifestyle ----
 brms_rmaxMMRmeanT_mtAmatLs <- brm(
@@ -168,8 +154,6 @@ brms_rmaxMMRmeanT_mtAmatLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRmeanT_mtAmatLs) # makes temp effect close to nothing
-# save(brms_rmaxMMRmeanT_mtAmatLs, file="models/20230314/brms_rmaxMMRmeanT_mtAmatLs.rds")
 
 # MMR ~ meas mass + meas temp + amax + lifestyle ----
 brms_rmaxMMRmeanT_mtAmaxLs <- brm(
@@ -188,8 +172,6 @@ brms_rmaxMMRmeanT_mtAmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRmeanT_mtAmaxLs)
-# save(brms_rmaxMMRmeanT_mtAmaxLs, file="models/20230314/brms_rmaxMMRmeanT_mtAmaxLs.rds")
 
 # MMR ~ meas mass + meas temp + rmax + lifestyle ----
 brms_rmaxMMRmeanT_mtRmaxLs <- brm(
@@ -208,8 +190,6 @@ brms_rmaxMMRmeanT_mtRmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxMMRmeanT_mtRmaxLs)
-# save(brms_rmaxMMRmeanT_mtRmaxLs, file="models/20230314/brms_rmaxMMRmeanT_mtRmaxLs.rds")
 
 # AAS ~ meas mass + meas temp + lifestyle ----
 brms_rmaxAASmeanT_mtLs <- brm(
@@ -228,8 +208,6 @@ brms_rmaxAASmeanT_mtLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASmeanT_mtLs)
-# save(brms_rmaxAASmeanT_mtLs, file="models/20230314/brms_rmaxAASmeanT_mtLs.rds")
 
 # AAS ~ meas mass + meas temp + repro output + lifestyle ----
 brms_rmaxAASmeanT_mtROLs <- brm(
@@ -248,8 +226,6 @@ brms_rmaxAASmeanT_mtROLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASmeanT_mtROLs) 
-# save(brms_rmaxAASmeanT_mtROLs, file="models/20230314/brms_rmaxAASmeanT_mtROLs.rds")
 
 # AAS ~ meas mass + meas temp + amat + lifestyle ----
 brms_rmaxAASmeanT_mtAmatLs <- brm(
@@ -268,8 +244,6 @@ brms_rmaxAASmeanT_mtAmatLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASmeanT_mtAmatLs)
-# save(brms_rmaxAASmeanT_mtAmatLs, file="models/20230314/brms_rmaxAASmeanT_mtAmatLs.rds")
 
 # AAS ~ meas mass + meas temp + amax + lifestyle ----
 brms_rmaxAASmeanT_mtAmaxLs <- brm(
@@ -288,8 +262,6 @@ brms_rmaxAASmeanT_mtAmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASmeanT_mtAmaxLs)
-# save(brms_rmaxAASmeanT_mtAmaxLs, file="models/20230314/brms_rmaxAASmeanT_mtAmaxLs.rds")
 
 # AAS ~ meas mass + meas temp + rmax + lifestyle ----
 brms_rmaxAASmeanT_mtRmaxLs <- brm(
@@ -308,9 +280,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
   ),
   chains = 4, cores = 4
 )
-# summary(brms_rmaxAASmeanT_mtRmaxLs)
-# save(brms_rmaxAASmeanT_mtRmaxLs, file="models/20230314/brms_rmaxAASmeanT_mtRmaxLs.rds")
-
 
 # # * ----
 # 
@@ -340,9 +309,7 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRmeanT_mtLs_unstd)
-# save(brms_rmaxRMRmeanT_mtLs_unstd, file="models/20230314/brms_rmaxRMRmeanT_mtLs_unstd.rds")
-# 
+#
 # # RMR ~ meas mass + meas temp + repro output + lifestyle UNSTD ----
 # brms_rmaxRMRmeanT_mtROLs_unstd <- brm(
 #   logMR ~ logMRMass + stdInvMRTemp + logReproOutput + lifestyle + (1|gr(phylo, cov = A)),
@@ -365,8 +332,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRmeanT_mtROLs_unstd)
-# save(brms_rmaxRMRmeanT_mtROLs_unstd, file="models/20230314/brms_rmaxRMRmeanT_mtROLs_unstd.rds")
 # 
 # # RMR ~ meas mass + meas temp + amat + lifestyle UNSTD ----
 # brms_rmaxRMRmeanT_mtAmatLs_unstd <- brm(
@@ -390,8 +355,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRmeanT_mtAmatLs_unstd)
-# save(brms_rmaxRMRmeanT_mtAmatLs_unstd, file="models/20230314/brms_rmaxRMRmeanT_mtAmatLs_unstd.rds")
 # 
 # # RMR ~ meas mass + meas temp + amax + lifestyle UNSTD ----
 # brms_rmaxRMRmeanT_mtAmaxLs_unstd <- brm(
@@ -415,8 +378,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxRMRmeanT_mtAmaxLs_unstd)
-# save(brms_rmaxRMRmeanT_mtAmaxLs_unstd, file="models/20230314/brms_rmaxRMRmeanT_mtAmaxLs_unstd.rds")
 # 
 # # RMR ~ meas mass + meas temp + rmax + lifestyle UNSTD ----
 # brms_rmaxRMRmeanT_mtRmaxLs_unstd <- brm(
@@ -436,8 +397,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 #   chains = 4, cores = 4
 # )
 # 
-# summary(brms_rmaxRMRmeanT_mtRmaxLs_unstd)
-# save(brms_rmaxRMRmeanT_mtRmaxLs_unstd, file="models/20230314/brms_rmaxRMRmeanT_mtRmaxLs_unstd.rds")
 # 
 # # MMR ~ meas mass + meas temp + lifestyle UNSTD ----
 # 
@@ -463,8 +422,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: There were 2 chains where the estimated Bayesian Fraction of Missing Information was low. See http://mc-stan.org/misc/warnings.html#bfmi-low 
 # # 3: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRmeanT_mtLs_unstd) 
-# save(brms_rmaxMMRmeanT_mtLs_unstd, file="models/20230314/brms_rmaxMMRmeanT_mtLs_unstd.rds")
 # 
 # # MMR ~ meas mass + meas temp + repro output + lifestyle UNSTD ----
 # brms_rmaxMMRmeanT_mtROLs_unstd <- brm(
@@ -489,8 +446,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: There were 2 chains where the estimated Bayesian Fraction of Missing Information was low. See http://mc-stan.org/misc/warnings.html#bfmi-low 
 # # 3: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRmeanT_mtROLs_unstd) 
-# save(brms_rmaxMMRmeanT_mtROLs_unstd, file="models/20230314/brms_rmaxMMRmeanT_mtROLs_unstd.rds")
 # 
 # # MMR ~ meas mass + meas temp + amat + lifestyle UNSTD ----
 # 
@@ -515,8 +470,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRmeanT_mtAmatLs_unstd)
-# save(brms_rmaxMMRmeanT_mtAmatLs_unstd, file="models/20230314/brms_rmaxMMRmeanT_mtAmatLs_unstd.rds")
 # 
 # # MMR ~ meas mass + meas temp + amax + lifestyle UNSTD ----
 # 
@@ -541,8 +494,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxMMRmeanT_mtAmaxLs_unstd)
-# save(brms_rmaxMMRmeanT_mtAmaxLs_unstd, file="models/20230314/brms_rmaxMMRmeanT_mtAmaxLs_unstd.rds")
 # 
 # # MMR ~ meas mass + meas temp + rmax + lifestyle UNSTD ----
 # 
@@ -563,8 +514,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 #   chains = 4, cores = 4
 # )
 # 
-# summary(brms_rmaxMMRmeanT_mtRmaxLs_unstd)
-# save(brms_rmaxMMRmeanT_mtRmaxLs_unstd, file="models/20230314/brms_rmaxMMRmeanT_mtRmaxLs_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + lifestyle UNSTD ----
 # brms_rmaxAASmeanT_mtLs_unstd <- brm(
@@ -583,9 +532,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 #   ),
 #   chains = 4, cores = 4
 # )
-# 
-# summary(brms_rmaxAASmeanT_mtLs_unstd)
-# save(brms_rmaxAASmeanT_mtLs_unstd, file="models/20230314/brms_rmaxAASmeanT_mtLs_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + repro output + lifestyle UNSTD ----
 # brms_rmaxAASmeanT_mtROLs_unstd <- brm(
@@ -609,8 +555,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 # # http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
 # # to find out why this is a problem and how to eliminate them. 
 # # 2: Examine the pairs() plot to diagnose sampling problems
-# summary(brms_rmaxAASmeanT_mtROLs_unstd)
-# save(brms_rmaxAASmeanT_mtROLs_unstd, file="models/20230314/brms_rmaxAASmeanT_mtROLs_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + amat + lifestyle UNSTD ----
 # brms_rmaxAASmeanT_mtAmatLs_unstd <- brm(
@@ -630,8 +574,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 #   chains = 4, cores = 4
 # )
 # 
-# summary(brms_rmaxAASmeanT_mtAmatLs_unstd)
-# save(brms_rmaxAASmeanT_mtAmatLs_unstd, file="models/20230314/brms_rmaxAASmeanT_mtAmatLs_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + amax + lifestyle UNSTD ----
 # brms_rmaxAASmeanT_mtAmaxLs_unstd <- brm(
@@ -651,8 +593,6 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 #   chains = 4, cores = 4
 # )
 # 
-# summary(brms_rmaxAASmeanT_mtAmaxLs_unstd)
-# save(brms_rmaxAASmeanT_mtAmaxLs_unstd, file="models/20230314/brms_rmaxAASmeanT_mtAmaxLs_unstd.rds")
 # 
 # # AAS ~ meas mass + meas temp + rmax + lifestyle UNSTD ----
 # brms_rmaxAASmeanT_mtRmaxLs_unstd <- brm(
@@ -672,5 +612,3 @@ brms_rmaxAASmeanT_mtRmaxLs <- brm(
 #   chains = 4, cores = 4
 # )
 # 
-# summary(brms_rmaxAASmeanT_mtRmaxLs_unstd)
-# save(brms_rmaxAASmeanT_mtRmaxLs_unstd, file="models/20230314/brms_rmaxAASmeanT_mtRmaxLs_unstd.rds")
