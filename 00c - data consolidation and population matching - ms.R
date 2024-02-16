@@ -22,7 +22,7 @@ AS_all$ScientificName <- as.factor(AS_all$ScientificName)
 
 # Load ecological lifestyles ----
 # For all 84 species
-lifestyles <- read.csv("data/lifestyles_84species_ms.csv",
+lifestyles <- read.csv("data/lifestyles_ms.csv",
                        header = TRUE, fileEncoding="UTF-8-BOM") %>% as.data.frame()
 lifestyles$Lifestyle <- as.factor(lifestyles$Lifestyle)
 
